@@ -52,6 +52,7 @@ fun GameListScreen(
         Spacer(modifier = Modifier.height(dimensionResource(id = R.dimen.padding_small)))
         GameList(
             games = games,
+            onGameClicked = onGameClicked,
             modifier = Modifier.padding(dimensionResource(id = R.dimen.padding_medium))
         )
     }
@@ -86,6 +87,7 @@ fun HeaderGameList(
 @Composable
 fun GameList(
     games: List<Pair<Game, Int>>,
+    onGameClicked: (Long) -> Unit,
     modifier: Modifier = Modifier
 ) {
     LazyColumn(
@@ -95,7 +97,7 @@ fun GameList(
             GameCard(
                 gameNameRes = game.first.title,
                 gameTimesPlayed = game.second,
-                onClick = { /*TODO*/ },
+                onClick = { onGameClicked(game.first.gameID) },
                 modifier = Modifier.height(dimensionResource(id = R.dimen.game_card_height))
             )
         }
