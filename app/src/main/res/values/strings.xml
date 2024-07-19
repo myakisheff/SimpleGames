@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SimpleGames</string>
+    <string name="back_button">Back</string>
+
+    <string name="game_sapper_title">Sapper</string>
+    <string name="available_games">Available games:</string>
+    <string name="global_points">%1$s</string>
+    <string name="played_times">played: %1$s</string>
+
+</resources>
