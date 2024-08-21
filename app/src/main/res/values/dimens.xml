@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_extra">12dp</dimen>
     <dimen name="padding_medium">16dp</dimen>
+    <dimen name="profile_image_size">150dp</dimen>
+    <dimen name="profile_top_indent">50dp</dimen>
     <dimen name="game_card_height">100dp</dimen>
 </resources>

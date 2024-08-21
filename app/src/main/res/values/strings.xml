@@ -1,10 +1,50 @@
 <resources>
     <string name="app_name">SimpleGames</string>
+
+    <!-- Screens -->
+    <string name="main_screen_title">Games</string>
+    <string name="statistic_screen_title">Statistic</string>
+    <string name="shop_screen_title">Shop</string>
+    <string name="profile_screen_title">Profile</string>
+
     <string name="back_button">Back</string>
 
-    <string name="game_sapper_title">Sapper</string>
     <string name="available_games">Available games:</string>
     <string name="global_points">%1$s</string>
+    <string name="game_award">Award: %1$s*</string>
     <string name="played_times">played: %1$s</string>
+    <string name="win_times">Win: %1$s</string>
+    <string name="lose_times">Lose: %1$s</string>
+
+    <string name="difficult_easy">Easy</string>
+    <string name="difficult_medium">Medium</string>
+    <string name="difficult_hard">Hard</string>
+
+    <string name="game_sapper_title">Sapper</string>
+
+    <string name="game_card_guesser_title">Card Guesser</string>
+    <string name="game_card_guesser_two_cards">Two Cards</string>
+    <string name="game_card_guesser_four_cards">Four Cards</string>
+    <string name="game_card_guesser_six_cards">Six Cards</string>
+    <string name="reward_hint">* - The reward depends on the difficulty of the game</string>
+    <string name="hide_settings">Hide settings</string>
+    <string name="show_settings">Show settings</string>
+    <string name="mine">mine</string>
+    <string name="count_of_mines">Count of mines: %1$s</string>
+    <string name="sapper_standard_mode">Standard mode</string>
+    <string name="sapper_flagging_mode">Flagging mode</string>
+    <string name="sapper_flagged_count">Flagged: %1$s</string>
+    <string name="status">Status: %1$s</string>
+    <string name="sapper_opened">Opened: %1$s</string>
+    <string name="game_tower_title">Tower</string>
+    <string name="tower_count_of_mines">"Count of mines"</string>
+    <string name="tower_collect">Collect</string>
+    <string name="tower_current_award">Current award: %1$s</string>
+    <string name="tower_next_award">Next award: %1$s</string>
+    <string name="collected_points">Collected: %1$s</string>
+    <string name="languages_russian">Russian language</string>
+    <string name="languages">Languages</string>
+    <string name="item_already_bought">This item already bought</string>
+    <string name="profile_image">Profile Image</string>
 
 </resources>

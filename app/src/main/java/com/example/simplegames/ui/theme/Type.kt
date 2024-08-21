@@ -35,5 +35,26 @@ val Typography = Typography(
         fontFamily = Buenard,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
-    )
+    ),
+    bodySmall = TextStyle(
+        fontFamily = Buenard,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp
+    ),
+    titleLarge = TextStyle(
+        fontFamily = Buenard,
+        fontWeight = FontWeight.Normal,
+        fontSize = 24.sp
+    ),
+    titleMedium = TextStyle(
+        fontFamily = Buenard,
+        fontWeight = FontWeight.Normal,
+        fontSize = 18.sp
+    ),
+    titleSmall = TextStyle(
+        fontFamily = Buenard,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp
+    ),
+
 )
